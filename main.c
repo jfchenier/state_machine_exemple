@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-struct state;
-void (*state_fn)(struct state *);
+void (*state_function)(struct state *);
 
 struct state
 {
